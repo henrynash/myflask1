@@ -36,7 +36,7 @@ def GetPeople():
 @app.route('/api/people/<name>')
 def SayHello(name):
     message = {
-        'message': 'Hello ' + name
+        'message': 'Hi there ' + name
     }
     return jsonify(results=message)
 
