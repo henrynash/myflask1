@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: myflask1
+  host: myflask1
+  disk_quota: 1024M
+  services:
+  - APIs from Pitney Bowes-jq
+  buildpack: python_buildpack
